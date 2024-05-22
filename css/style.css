@@ -1,0 +1,135 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.nav-item li a {
+    text-decoration: none;
+    color: black;
+}
+
+#home{
+   
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../images/slider/slider2.webp);
+        margin-top: 70px;
+        
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+   
+
+
+.p11{
+    margin-left: 50px;
+    background-color: burlywood;
+    width: 75%;
+    margin-top: 570px;
+    
+   
+}
+.p11 :hover{
+    /* color: rgba(9, 155, 240, 0.945); */
+    color: rgb(4, 75, 116);
+}
+.nav-item{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+   
+    .service-menu-area{
+        margin-top: 58px;
+
+        
+    }
+
+.service-menu-area ul li a {
+    display: block;
+    margin-bottom: 2.8125rem;
+    margin-top: 20px;
+
+}
+.service-menu-area ul li a :hover {
+    text-decoration: underline;
+    filter: brightness(45%);
+}
+
+
+.service-menu-area ul li a .service-icon {
+    height: 5.625rem;
+    width: 5.625rem;
+    line-height: 6.625rem;
+    float: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: blue;
+    
+   
+   
+}
+
+.service-menu-area ul li a .service-icon:hover,
+.service-menu-area ul li a.active .service-icon {
+   
+    background-color: #0fee7e;
+    color: #fff;
+   
+}
+
+.service-menu-area ul li:nth-child(1) {
+    margin-left: 5.9999rem;
+   
+}
+
+.service-menu-area ul li:nth-child(2) {
+    margin-left: 01.9999999999rem;
+    
+}
+
+.service-menu-area ul li:nth-child(3) {
+    margin-left: -0.175rem;
+}
+
+.service-menu-area ul li:nth-child(4) {
+    margin-left: -2.8125rem;
+}
+
+.service-menu-area ul li a p,
+.service-menu-area ul li a h5 {
+    padding-left: 6.875rem;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+.counter{
+    background-image: url(../images/counter-bg.webp);
+    width: 100%;
+    min-height: 50vh;
+   
+}
+.counter .con{
+    margin-top: 60px;
+
+}
+    
+.imgg :hover{
+    background-color: #d6bbdd;
+}
